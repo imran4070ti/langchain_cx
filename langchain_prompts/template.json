@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_input",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n        You are an expert in explaining research papers. Your task is to provide a clear and concise explanation of the paper titled \"{paper_input}\" in a {style_input} style with a {length_input} response.\n        Ensure that the summary is clear, informative, and tailored to the selected style and length.\n    ",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
