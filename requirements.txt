@@ -21,6 +21,9 @@ langchain-huggingface
 transformers
 huggingface-hub
 
+# Ollama Integration
+langchain-ollama
+
 # Environment Variable Management
 python-dotenv
 
